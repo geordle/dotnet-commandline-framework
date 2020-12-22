@@ -1,5 +1,5 @@
 # Dotnet CommandLine framework
-An experiment of trying to abstract away wiring of `dotnet/command-line-api` apps to build extensible commandline applications, inspired by setup of asp.net core.
+An experiment of trying to abstract away wiring of `dotnet/command-line-api` apps to build extensible commandline applications, inspired by setup of asp.net core. All classes listed below are registered in ServiceCollection and can have dependencies injected.
 
 ### Setup
 ````c#
