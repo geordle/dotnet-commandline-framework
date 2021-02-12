@@ -68,7 +68,7 @@ class TestSubCommand2 : ConsoleCommand
 ```c#
 internal class NamespaceSuggester : ISuggester
 {
-    privite IService _service;
+    private IService _service;
     
     public NamespaceSuggester(IService service)
     {
